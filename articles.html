@@ -12,8 +12,9 @@
 	padding-top: 15px;
 	padding-bottom: 20px;}
 
-	h2{font-size: 22px;
-	text-align: center;}
+	div.articles h2{font-size: 22px;
+	text-align: center;
+	color:black;}
 	
 	p{
 	font-size: 16px;
@@ -21,10 +22,12 @@
 	white-space: normal;
 	padding-bottom: 45px;
 	text-align:center;}
-	div.links a:active {
-  	text-decoration: underline;}
+
+
 	div.links a:link{
 	text-decoration: none;}
+	div.links a:hover {
+  	text-decoration: underline;}
 
 	
 	/*links at the top*/
@@ -48,6 +51,19 @@
   	color: black;}
 
 
+	/*logo*/
+	div.logo img{
+	height: 40px;
+	width:100px;
+	display: block;
+    	margin: 0 auto;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	position:absolute;
+	right: 20px;
+	top: 8px;}
+
+
   </style>
 </head>
 <body>
@@ -60,36 +76,60 @@
     <a href="./videos.html">Videos</a>
     <a href="./articles.html">Articles</a>
   </nav>
-  	<style>
-	div.topnav img{
-	height: 40px;
-	width:100px;
-	display: block;
-    	margin: 0 auto;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	position:absolute;
-	right: 20px;}
-	</style>
-  <img src="IMG_1000.jpg">
-  </div>
 
+</div>
+<div class="logo">
+  <a href="./index.html"> <img src="IMG_1000.jpg"></a>
+</div>
+
+<div class="articles">
 
 	<h1>Articles</h1>
 	<p> We were in some newspaper articles! 
-	<br> For Caroline Rausch, this was the second patent she applied for before graduating high school. 
+	<br>For Caroline Rausch, this was the second patent she applied for before graduating high school. 
 	<br>Thus, we were interviewed and written about in the papers. 
 	<br>You can check them out at the links below!  </p>
 	
 
-<div class="links">
-	<h2><a href="https://www.nwherald.com/2018/05/16/crystal-lake-south-senior-applies-for-2-patents-before-graduation/ad959db/">Northwest Herald</a></h2>
-
+	<div class="links">
+	<h2><a href="https://www.nwherald.com/2018/05/16/crystal-lake-south-senior-applies-for-2-patents-before-graduation/ad959db/">Northwest Herald</a>
+	</div>
+	<div class="links">
 	<h2> <a href="https://www.dailyherald.com/business/20180530/its-hard-to-get-a-patent-this-crystal-lake-south-grad-already-holds-two">Daily Herald</a></h2>
-
+	</div>
+	<div class="links">
 	<h2><a href="https://patch.com/illinois/crystallake/crystal-lake-south-senior-applies-two-patents"> Patch </a></h2>
-</div>
+	</div>
 
+</div>
+  <div class="SocialMedia">
+	<style>
+	div.column img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height:60px;
+
+	float: left;
+	boarder:0;
+	padding: 15px;}
+	
+	div.SocialMedia h2{
+	color: DarkTurquoise;}
+		
+	</style>
+    <h2 style="padding-top: 60px;" "text-align: left;"> Social Media </h2> 
+    <div class= "column">
+    <a href="https://www.facebook.com/TenniSorter-1755434257828119/" target="_blank"> <img src="fb.jpg"></a>
+    </div>
+    <div class= "column">
+    <a href="https://www.instagram.com/tennisorter/" target="_blank"><img src="insta-icon.jpeg"></a>
+    </div>
+    <div class= "column">
+    <a href="https://twitter.com/sortertenni?lang=en" target="_blank"> <img src="twitter.jpg"></a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
